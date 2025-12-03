@@ -1,0 +1,67 @@
+  *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+   .main{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+   }
+   .sum{
+     border: 2px solid;
+     width: 400px;
+     height: 500px;
+     text-align: center;
+     padding: 20px;
+   }
+   .suminput{
+     font-size: 20px;
+     padding: 10px;
+   }
+   .sum .sum-btn, .suminput{
+     height: 50px;
+     margin-top: 10px;
+   }
+   .result{
+     margin-top: 20px;
+     font-size: 20px;
+     color: green;
+   }
+   .result-sum{
+    padding: 10px;
+    color: red;
+    font-size: 70px;
+   }
+   .error{
+    background-color: red;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 20px;
+    margin: 10px 0;
+    display: none;
+    text-align: center;
+    padding-top: 2px;
+   }
+   .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 40% 50% 40% 50%;
+   }
+   .last-java{
+    font-size: 20px;
+   }
+
+   @media  screen and (max-width:520px) {
+    .sum{
+     flex: 1;
+    }
+   }
